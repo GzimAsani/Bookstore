@@ -1,6 +1,13 @@
 import './App.css';
 import React from 'react';
+import BooksList from './BooksList';
+import BooksForm from './BooksForm';
 
-const App = () => <div>Gzim</div>;
+const App = () => (
+  <div>
+    <BooksForm />
+    <BooksList />
+  </div>
+);
 
 export default App;
