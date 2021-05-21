@@ -1,15 +1,18 @@
-import React from 'react';
-
 const BooksForm = () => {
-  const booksCategories = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
-
+  const categories = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
   return (
-    <div className="form-group">
-      <label htmlFor="title">Example select</label>
-      <select className="form-control">
-        {booksCategories.map((books) => <p>{books}</p>)}
+    <form>
+      <label htmlFor="title">
+        Title
+        <input type="text" id="title" />
+      </label>
+      <select name="category" id="category">
+        {categories.map((category, index) => (
+          <option value={category} key={String(index)}>{category}</option>
+        ))}
       </select>
-    </div>
+      <button type="submit">Add Book</button>
+    </form>
   );
 };
 
