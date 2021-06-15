@@ -7,10 +7,10 @@ import CategoryFilter from '../components/CategoryFilter';
 const BooksList = ({
   books, filter, removeBook, changeFilter,
 }) => {
-  const handleRemoveBook = book => {
+  const handleRemoveBook = (book) => {
     removeBook(book);
   };
-  const handleFilterChange = filter => {
+  const handleFilterChange = (filter) => {
     changeFilter(filter);
   };
   return (
@@ -25,8 +25,8 @@ const BooksList = ({
           </tr>
         </thead>
         <tbody>
-          {(filter === 'All' ? books : books.filter(book => book.category === filter))
-            .map(book => (
+          {(filter === 'All' ? books : books.filter((book) => book.category === filter))
+            .map((book) => (
               <Book book={book} key={book.id} removeBook={handleRemoveBook} />
             ))}
         </tbody>
@@ -36,12 +36,12 @@ const BooksList = ({
   );
 };
 
-const mapStateToProps = state => ({ books: state.books, filter: state.filter });
-const mapDispatchToProps = dispatch => ({
-  removeBook: book => {
+const mapStateToProps = (state) => ({ books: state.books, filter: state.filter });
+const mapDispatchToProps = (dispatch) => ({
+  removeBook: (book) => {
     dispatch(removeBook(book));
   },
-  changeFilter: filter => {
+  changeFilter: (filter) => {
     dispatch(changeFilter(filter));
   },
 });

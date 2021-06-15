@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const CategoryFilter = ({ changeFilter }) => {
   const categories = ['All', 'Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
-  const handleChange = e => {
+  const handleChange = (e) => {
     changeFilter(e.target.value);
   };
   return (
