@@ -9,7 +9,7 @@ const Book = ({ book, removeBook }) => {
       <div>
         <div className="category">{book.category}</div>
         <div className="title">{book.title}</div>
-        <div className="author">John Smith</div>
+        <div className="author">John Doe</div>
         <div className="book-footer flex a-center">
           <div>Comments</div>
           <div className="line-2" />
@@ -23,7 +23,7 @@ const Book = ({ book, removeBook }) => {
         <div className="line-2" />
         <div>
           <div className="current-chapter">CURRENT CHAPTER</div>
-          <div className="chapter">Chapter 17</div>
+          <div className="chapter">Chapter 22</div>
           <button type="button" className="update-progress">UPDATE PROGRESS</button>
         </div>
       </div>
