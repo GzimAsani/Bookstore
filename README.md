@@ -7,7 +7,7 @@ Bookstore app build with React
 
 
 ## Live server
-<button> <a href="https://bookstore-appp.herokuapp.com/"> Live demo!</a> </button>
+<button> <a href="https://gracious-euclid-0da7e3.netlify.app/"> Live demo!</a> </button>
 
 ## Built With 
 
