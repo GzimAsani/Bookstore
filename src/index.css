@@ -45,11 +45,14 @@ h2 {
   margin: 29px 524px 19px 0;
   font-size: 20px;
   font-weight: bold;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+.font-fix {
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
-  letter-spacing: -0.18px;
-  color: #888;
 }
 
 button {
@@ -135,9 +138,6 @@ select {
   opacity: 0.5;
   font-size: 14px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
   color: #121212;
 }
@@ -146,9 +146,6 @@ select {
   margin: 3px 323px 0 0;
   font-size: 22px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.2px;
   color: #121212;
 }
@@ -156,9 +153,6 @@ select {
 .book-footer > * {
   font-size: 14px;
   padding: 0;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
   color: #4386bf;
 }
@@ -182,9 +176,6 @@ select {
   margin: 4px 0 0;
   font-size: 14px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
   color: #4386bf;
 }
@@ -207,9 +198,6 @@ select {
   height: 21px;
   font-size: 16px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: -0.4px;
   color: #121212;
 }
@@ -217,9 +205,6 @@ select {
 .update-progress {
   font-size: 13px;
   font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 0.5px;
   text-align: center;
   color: #fff;

@@ -22,7 +22,7 @@ const BooksForm = ({ createBook }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="line" />
-      <h2>ADD NEW BOOK</h2>
+      <h2 className="font-fix">ADD NEW BOOK</h2>
       <div className="flex jc-between">
         <input type="text" id="title" value={title} onChange={handleTitleChange} placeholder="Book Title" required />
         <select name="category" id="category" value={category} onChange={handleCategoryChange} required>
